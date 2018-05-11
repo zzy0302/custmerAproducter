@@ -33,12 +33,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="custmerAproducter.cpp">
+    <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="custmerAproducter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="custmerAproducter.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Thread.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
